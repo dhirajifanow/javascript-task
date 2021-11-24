@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Task</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="tictactoe.html">Task 1 </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="todo-list.html">Task 2</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="heading">
+        <h4>Welcome to tic tac toe</h4>
+    </div>
+    <div class="gameContainer">
+        
+        <div class="container">
+            <div class="box bt bl"><span class="boxText"></span></div>
+            <div class="box bt"><span class="boxText"></span></div>
+            <div class="box bt br"><span class="boxText"></span></div>
+            <div class="box bl"><span class="boxText"></span></div>
+            <div class="box"><span class="boxText"></span></div>
+            <div class="box br"><span class="boxText"></span></div>
+            <div class="box bl bb"><span class="boxText"></span></div>
+            <div class="box bb"><span class="boxText"></span></div>
+            <div class="box bb br"><span class="boxText"></span></div>
+        </div>
+    </div>
+    <div class="gameInfo">
+        <div>
+            <span class="info">Player - X - Turn</span>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+    <div class="info1">
+        <span>X</span>
+    </div>
+    <div class="info2">
+        <span>0</span>
+    </div>
+    
+    
+    <script src="tictactoe.js"></script>
+</body>
+</html>
